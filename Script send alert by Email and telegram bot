@@ -1,3 +1,19 @@
+
+#----------SCRIPT INFORMATION---------------------------------------------------
+#
+# Script:  Mikrotik detect login with email and telegram bot
+# Version: 01
+# Created: 04/06/2021
+# Updated: 04/06/2021
+# Author:  Carlos Urata
+# Website: https://github.com/Urata
+# You can contact me by e-mail at csurata@gmail.com
+#
+# IMPORTANT!
+# Minimum supported RouterOS version is v6.43
+#
+#----------MODIFY THIS SECTION AS NEEDED----------------------------------------
+
 # BEGIN SETUP
 :local scheduleName "LogMonitorLogin"
 :local emailAddress "your e-mail"
@@ -17,7 +33,7 @@
 
 
 
-# END SETUP
+# END SETUP----------------------------------------------------
 
 # warn if schedule does not exist
 :if ([:len [/system scheduler find name="$scheduleName"]] = 0) do={
