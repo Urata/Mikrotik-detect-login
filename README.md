@@ -1,4 +1,4 @@
-# Mikrotik-detect-login
+# Mikrotik-detect-login with e-mail and telegram bot
 
 1 - Configure your email > https://wiki.mikrotik.com/wiki/Manual:Tools/email or https://github.com/beeyev/Mikrotik-RouterOS-automatic-backup-and-update
 
