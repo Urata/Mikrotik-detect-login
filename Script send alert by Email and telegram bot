@@ -6,9 +6,10 @@
 #Bot ID
 :local BotID "xxxxxxxxxx:xxxxxxxxxxxxxxxxxxx"
 
-
+#keyword
 :local startBuf [:toarray [/log find message~"logged" || message~"login failure"]]
 
+#IP bypass
 :local removeThese {"192.168.0.12"}
 
 #Information
